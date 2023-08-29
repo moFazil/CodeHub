@@ -1,0 +1,64 @@
+.cssquiz{
+    position: absolute;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.cssque{
+    height: 400px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid #000;
+    margin: 0 auto;
+    text-align: center;
+    font-size: large;
+    border-radius: 20px;
+    padding: 10px 0;
+    color: #394867;
+}
+.cssopt{
+    padding: 2rem;
+    border-top: 2px solid #000;
+}
+.cssopt_ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1rem;
+    list-style-type: none;
+}
+.cssopt_li{
+    padding: 1rem;
+    background-color: #394867;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    text-shadow: 1px 1px #000;
+    color: #F1F6F9;
+}
+.cssopt_li:hover{
+    background-color: #F1F6F9;
+    color: #000;
+    text-shadow: 2px 2px #fff;
+}
+.buttoncss{
+    margin: 0 15px;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: #394867;
+    color: #000;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #F1F6F9;
+}
+.buttoncss:hover{
+    background-color: whitesmoke;
+    color: #394867;
+}

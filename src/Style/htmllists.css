@@ -1,0 +1,7 @@
+.list{
+    position: absolute;
+    z-index: -1;
+    padding: 40px 0;
+    width: 100%;
+    left: 0;
+}

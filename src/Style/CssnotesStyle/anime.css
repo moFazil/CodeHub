@@ -1,0 +1,14 @@
+.animation{
+    position: absolute;
+    z-index: -1;
+    padding: 40px 0;
+    width: 90%;
+    left: 0;
+}
+li{
+    padding: 5px;
+}
+.note {
+    background-color: rgb(237, 237, 40);
+    border-radius: 10px;
+}

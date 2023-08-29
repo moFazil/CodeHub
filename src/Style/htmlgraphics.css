@@ -1,0 +1,29 @@
+.graphics{
+    position: absolute;
+    z-index: -1;
+    padding: 40px 0;
+    left: 0;
+    width: 90%;
+}
+.graphics img{
+    margin: 20px 0;
+    border: 2px solid #000000;
+    padding: 5px 5px;
+}
+.enterQuiz{
+    padding: 15px 30px;
+    display: flex;
+    margin: 40px 5px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: medium;
+    background-color: #394867;
+    color: #fff;
+    border: none;
+    outline: none;
+    text-shadow: 0.5px 0.5px #000;
+}
+.enterQuiz:hover{
+    background-color: #fff;
+    color: #000;
+}

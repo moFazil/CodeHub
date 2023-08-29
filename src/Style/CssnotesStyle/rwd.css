@@ -1,0 +1,10 @@
+.res{
+    position: absolute;
+    z-index: -1;
+    width: 90%;
+    padding: 40px 0;
+    left: 0;
+}
+.res img{
+    width: 100%;
+}

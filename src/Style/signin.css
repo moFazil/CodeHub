@@ -1,0 +1,51 @@
+.acc{
+    position: absolute;
+    z-index: -1;
+    color: #27374D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   top: 50%;
+   transform: translateY(-50%);
+   width: 100%;
+}
+.headsign{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.headsign input{
+    width: 270px;
+    height: 20px;
+    margin: 20px 0;
+    padding: 10px 0;
+    font-size: medium;
+    border-radius: 10px;
+    border: 1px solid #27374D;
+    outline: none;
+}
+.headsign button{
+    width: 230px;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: medium;
+    font-weight: bold;
+    background-color: #27374D;
+    border: 0.5px solid #27374D;
+    outline: none;
+    color: #F1F6F9;
+}
+.signhead{
+   margin: 0 0 40px 0;
+   
+   border-radius: 50px;
+   padding: 10px 20px;
+   text-shadow: 1px 1px #000;
+   color: #27374D;
+}
+.headsign button:hover{
+    background-color: #F1F6F9;
+    color: #27374D;
+}

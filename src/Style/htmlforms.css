@@ -1,0 +1,11 @@
+.forms{
+    position: absolute;
+    z-index: -1;
+    padding: 40px 0; 
+    left: 0;  
+}
+.formop{
+    background-color: rgb(106, 170, 148);
+    padding: 20px;  
+    border-radius: 20px;
+}

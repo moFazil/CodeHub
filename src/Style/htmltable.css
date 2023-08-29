@@ -1,0 +1,13 @@
+html{
+    scroll-behavior: smooth;
+}
+.table{
+    position: absolute;
+    z-index: -1;
+    padding: 40px 0;
+    width: 90%;
+    left: 0;
+}
+.note{
+    padding: 20px;
+}

@@ -1,0 +1,16 @@
+.center{
+    font-weight: 900;
+    color: #27374D;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+   width: 100%;
+   position: absolute;
+   font-size: 30px;
+}
+.center2{
+    padding: 10px 0;
+}
+.center h2{
+    font-size: 80px;
+}
